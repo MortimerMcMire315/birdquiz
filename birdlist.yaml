@@ -1,0 +1,151 @@
+%YAML 1.2
+---
+
+Sparrows & Finches:
+    - American goldfinch
+    - American tree sparrow
+    - Chipping sparrow
+    - Common redpoll
+    - Dark-eyed junco
+    - Dickcissel
+    - Eastern Meadowlark
+    - Eastern towhee
+    - Field sparrow
+    - Fox Sparrow
+    - Grasshopper sparrow
+    - Henslow’s sparrow
+    - House finch
+    - House sparrow
+    - Indigo bunting
+    - Northern cardinal
+    - Pine siskin
+    - Purple finch
+    - Rose-breasted grosbeak
+    - Savannah sparrow
+    - Scarlet tanager
+    - Song sparrow
+    - Swamp sparrow
+    - Vesper sparrow
+    - White-crowned sparrow
+    - White-throated sparrow
+    - White-winged crossbill
+    - Yellow-breasted chat
+
+Blackbirds:
+    - Baltimore oriole
+    - Bobolink
+    - Brown-headed cowbird
+    - Common Grackle
+    - Orchard oriole
+    - Red-winged blackbird
+
+Woodpeckers:
+    - Downy Woodpecker
+    - Hairy Woodpecker
+    - Northern Flicker
+    - Pileated Woodpecker
+    - Red-bellied Woodpecker
+    - Red-headed Woodpecker
+    - Yellow-bellied sapsucker
+
+Owls:
+    - Barred owl
+    - Eastern screech-owl
+    - Great horned-owl
+    - Snowy Owl
+
+Warblers:
+    - American Redstart
+    - Bay-breasted Warbler
+    - Black and white Warbler
+    - Black-throated Blue Warbler
+    - Black-throated Green Warbler
+    - Blackburnian Warbler
+    - Blackpoll Warbler
+    - Blue-winged Warbler
+    - Canada Warbler
+    - Chestnut-sided Warbler
+    - Common Yellowthroat
+    - Golden-winged Warbler
+    - Hooded Warbler
+    - Magnolia Warbler
+    - Nashville Warbler
+    - Northern Parula
+    - Palm Warbler
+    - Pine Warbler
+    - Prairie Warbler
+    - Tennessee Warbler
+    - Yellow Warbler
+    - Yellow-rumped Warbler
+    - Yellow-throated Warbler
+
+Unique Birds:
+    - Belted kingfisher
+    - Black-billed cuckoo
+    - Chimney swift
+    - Common nighthawk
+    - Eastern Whip-poor-will
+    - Mourning dove
+    - Ring-necked pheasant
+    - Rock pigeon
+    - Ruby-throated hummingbird
+    - Ruffed grouse
+    - Wild Turkey
+    - Yellow-billed cuckoo
+
+Birds of prey:
+    - American kestrel
+    - Bald Eagle
+    - Black vulture
+    - Broad-winged hawk
+    - Cooper’s hawk
+    - Osprey
+    - Red-shouldered hawk
+    - Red-tailed hawk
+    - Turkey vulture
+
+Thrushes, Vireos, Flycatchers, Jays, etc.:
+    - Eastern Wood-Peewee
+    - Acadian Flycatcher
+    - Willow Flycatcher
+    - Least Flycatcher
+    - Eastern Phoebe
+    - Great-Crested Flycatcher
+    - Eastern Kingbird
+    - White-eyed Vireo
+    - Yellow-throated Vireo
+    - Blue-headed Vireo
+    - Warbling Vireo
+    - Red-eyed Vireo
+    - Blue Jay
+    - American Crow
+    - Common Raven
+    - Horned Lark
+    - Northern Rough-winged Swallow
+    - Purple Martin
+    - Tree Swallow
+    - Barn Swallow
+    - Carolina Chickadee
+    - Black-capped chickadee
+    - Tufted Titmouse
+    - Red-breasted Nuthatch
+    - White-breasted Nuthatch
+    - Brown Creeper
+    - House Wren
+    - Carolina Wren
+    - Winter wren
+    - Blue-gray Gnatcatcher
+    - Golden-crowned Kinglet
+    - Ruby-crowned Kinglet
+    - Eastern Bluebird
+    - Veery
+    - Hermit Thrush
+    - Wood Thrush
+    - American Robi
+    - Gray Catbird
+    - Brown Thrasher
+    - Northern Mockingbird
+    - European Starling
+    - Cedar Waxwing
+    - Ovenbird
+...
