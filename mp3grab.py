@@ -3,10 +3,12 @@ import urllib.request
 import subprocess
 import os
 from bs4 import BeautifulSoup
+from bs4.dammit import EntitySubstitution
 from util import print_error, normalize
+import html
 
-def find_mp3_url(html, birdname):
-    soup = BeautifulSoup(html, 'html.parser')
+def find_mp3_url(page, birdname):
+    soup = BeautifulSoup(page, 'html.parser')
     try:
         firstResult = soup.find(id="speciesResults").find_all('li')[0]
         audio_url = firstResult.find_all("audio")[0]["src"]
@@ -26,11 +28,17 @@ def play_mp3_from_birdname(birdname, session):
     http = urllib3.PoolManager(cert_reqs='CERT_REQUIRED',ca_certs=certifi.where())
     response = http.request("GET","http://www.allaboutbirds.org/search/?q=" + birdname)
     '''
-    print("Retrieving mp3 file...")
-    session.visit("http://www.allaboutbirds.org/search/?q=" + birdname)
-    html = session.body()
 
-    mp3_url = find_mp3_url(html,birdname)
+    esub = EntitySubstitution()
+    escaped = esub.substitute_html(birdname)
+
+    session.visit("http://www.allaboutbirds.org/search/?q=" + escaped)
+    try:
+        page = session.body()
+    except:
+        return None
+
+    mp3_url = find_mp3_url(page,birdname)
     if mp3_url is None:
         return None
 
