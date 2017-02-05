@@ -20,7 +20,7 @@ def study(quiz_set, webkit_session):
 
         mp3_result = play_mp3_from_birdname(birdname,webkit_session)
         if mp3_result is None:
-            print("mp3 could not be found. Taking \"" + birdname + "\" out of the rotation. Sorry...")
+            print("mp3 could not be found. Taking \"" + birdname + "\" out of this rotation. Sorry...")
             correct.append(birdname)
             continue
         (mp3_process, mp3_path) = mp3_result
