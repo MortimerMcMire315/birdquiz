@@ -42,5 +42,5 @@ def play_mp3(mp3_path):
     with open(os.devnull, 'w') as o:
         with open(os.devnull, 'w') as e:
             with open(os.devnull, 'w') as i:
-                return (subprocess.Popen(['mpg123', '-q', mp3_path], stdout=o, stderr=e, stdin=i), mp3_path)
-                #return (subprocess.Popen(['vlc',  mp3_path], stdout=o, stderr=e, stdin=i), mp3_path)
+                #return (subprocess.Popen(['mpg123', '-q', mp3_path], stdout=o, stderr=e, stdin=i), mp3_path)
+                return (subprocess.Popen(['vlc',  mp3_path], stdout=o, stderr=e, stdin=i), mp3_path)

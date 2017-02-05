@@ -15,7 +15,6 @@ def study(quiz_set, webkit_session):
     correct = []
     while shuffled_birdlist:
         print("--------------------")
-        shuffled_birdlist = list(set(shuffled_birdlist).difference(set(correct)))
         shuffle(shuffled_birdlist)
         birdname = shuffled_birdlist[0]
 
@@ -25,7 +24,6 @@ def study(quiz_set, webkit_session):
             correct.append(birdname)
             continue
         (mp3_process, mp3_path) = mp3_result
-        print(mp3_path)
 
         mp3loop = True
         while True:
@@ -78,6 +76,12 @@ def study(quiz_set, webkit_session):
                 return
             else:
                 print_error("Invalid choice.")
+
+        shuffled_birdlist = list(set(shuffled_birdlist).difference(set(correct)))
+
+    print("Category finished.")
+    print("==================")
+
 
 def quiz_loop(birds, webkit_session):
     choice = ""
