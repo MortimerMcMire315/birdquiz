@@ -9,3 +9,11 @@ def normalize(s):
     for unnecessary_char in "- ":
         name = name.replace(unnecessary_char,"")
     return name.lower()
+
+def print_debug(s):
+    print("====DEBUG INFO====")
+    print(s)
+    print("====END DEBUG INFO====")
+
+def set_difference(list1, list2):
+    return list(set(list1).difference(set(list2)))
